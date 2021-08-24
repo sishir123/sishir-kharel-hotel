@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif !important;
+}
+body {
+	font-family: "Open Sans", sans-serif !important;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+#navbar {
+	background: #333;
+	color: #fff;
+	overflow: auto;
+	position: sticky;
+}
+.container {
+	margin: auto;
+	max-width: 1200px;
+	overflow: auto;
+	padding: 0 20px;
+}
+#navbar .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#navbar a {
+	font-family: "Times New Roman", Times, serif;
+	color: #fff;
+}
+
+#navbar ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.active {
+	background: #444;
+	color: rgb(255, 127, 80);
+}
+.color {
+	color: coral;
+}
+
+#main-footer {
+	color: white;
+	background-color: black;
+	width: 100%;
+	background: #444;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+#main-footer h3 {
+	margin: 15px 0 10px;
+}
+.footer-links {
+	flex: 1;
+}
+#main-footer ul {
+	list-style: none;
+	padding-left: 150px;
+}
+#main-footer ul li a {
+	text-decoration: underline;
+	color: #fff;
+	line-height: 30px;
+}
+#main-footer ul li a:hover {
+	text-decoration: none;
+}
+#main-footer .footer-container {
+	padding: 50px 0;
+	display: flex;
+	flex: 2;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}

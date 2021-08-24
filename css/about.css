@@ -1,0 +1,69 @@
+#features {
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+#features .box {
+	padding: 50px;
+	flex: 1;
+}
+.bg {
+	background: coral;
+}
+.box h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+#about {
+	margin-top: 40px;
+}
+
+#about .info h1 {
+	font-family: cursive;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+#about .info {
+	min-height: 100%;
+}
+
+#about .info p {
+	font-size: 18px;
+}
+#reviews {
+	height: 100%;
+	color: #fff;
+	background-image: url("..//img/test-bg.jpg");
+}
+
+.bg1 {
+	background: #f7c08a;
+}
+#reviews h1 {
+	text-align: center;
+	font-family: cursive;
+	font-size: 50px;
+	padding-top: 100px;
+}
+
+#reviews #review img {
+	width: 70px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+
+#reviews .container {
+	padding: 30px 70px;
+}
+#review {
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+#reviews p {
+	color: rgb(0, 0, 0);
+}

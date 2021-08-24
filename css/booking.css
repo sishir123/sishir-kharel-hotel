@@ -1,0 +1,52 @@
+.available-rooms {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 40px 0 20px;
+}
+.room {
+	width: 700px;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+.room-details {
+	height: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border: 1px solid #f4f4f4;
+}
+.room img {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.room-details h3 {
+	font-weight: 600;
+	color: #222;
+}
+.room-details p {
+	color: #555;
+	margin: 10px 0 20px;
+}
+.booking {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-bottom: 1px solid #74747428;
+}
+.booking button {
+	font-size: 20px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+.booking button:hover {
+	color: black;
+	background-color: coral;
+}
