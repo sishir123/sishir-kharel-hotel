@@ -13,13 +13,11 @@
 #center {
 	padding-top: 200px;
 	text-align: center;
-	position:relative;
+
 }
 #center .home-page-clock {
-	position:absolute;
+	position: absolute;
 	top: 30px;
-	left:0;
-	right:0;
 	text-align: center;
 	font-size: 2rem;
 }
