@@ -13,6 +13,7 @@
 #center {
 	padding-top: 200px;
 	text-align: center;
+	position:relative;
 }
 #center .home-page-clock {
 	top: 30px;
